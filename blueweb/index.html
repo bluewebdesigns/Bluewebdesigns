@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="/favicon.svg" rel="icon" type="image/svg+xml" />
+    <link href="/favicon-32.png" rel="alternate icon" sizes="32x32" type="image/png" />
+    <link href="/apple-touch-icon.png" rel="apple-touch-icon" />
+    <title>Blueweb Designs</title>
+    <script>
+      document.documentElement.dataset.theme = localStorage.getItem("bw-theme") || "light";
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
